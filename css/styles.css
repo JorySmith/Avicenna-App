@@ -1,0 +1,93 @@
+:root {
+  --brand-dark-blue: #20339ec8;
+  --brand-teal: #1c94c4;
+  --brand-grey: #868686;
+  --brand-dark-grey: #494949f5;
+}
+
+body {
+  transition: background 0.25s linear;
+  color: var(--brand-dark-grey);
+  font-weight: 500;
+}
+
+h1,
+h5 {
+  color: var(--brand-dark-blue);
+  transition: background 0.25s linear;
+}
+
+h2 button {
+  color: var(--brand-dark-grey) !important;
+  font-weight: 500;
+}
+
+p > a {
+ cursor: pointer !important;
+}
+
+a {
+  color: var(--brand-teal);
+}
+
+.avicenna-logo {
+  padding: 0.25rem 0 0.18rem 0.25rem;
+}
+
+.avicenna-heading {
+  font-size: 40px;
+  letter-spacing: 0.05rem;
+}
+
+footer p {
+  text-align: left;
+}
+
+/* Dark Mode Toggler */
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  background-color: #505050;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 4px 6px;
+  position: relative;
+  height: 16px;
+  width: 32px;
+  transform: scale(1.25);
+}
+
+.label .ball {
+  background-color: var(--brand-grey);
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 16px;
+  width: 16px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(16px);
+}
+
+.fa-moon {
+  color: #ffe479;
+  font-size: 10px;
+  padding-top: 2px;
+}
+
+.fa-sun {
+  color: #ffc31d;
+  font-size: 10px;
+  padding-top: 2px;
+}
+/* End of Dark Mode Section */

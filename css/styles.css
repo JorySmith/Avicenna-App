@@ -30,6 +30,13 @@ a {
   color: var(--brand-teal);
 }
 
+span,
+.accordion-body,
+.accordion-button,
+li {
+  transition: background 0.25s linear;
+}
+
 .avicenna-logo {
   padding: 0.25rem 0 0.18rem 0.25rem;
 }
@@ -37,10 +44,6 @@ a {
 .avicenna-heading {
   font-size: 40px;
   letter-spacing: 0.05rem;
-}
-
-footer p {
-  text-align: left;
 }
 
 /* Dark Mode Toggler */
@@ -91,3 +94,15 @@ footer p {
   padding-top: 2px;
 }
 /* End of Dark Mode Section */
+
+span {
+  color: var(--brand-dark-blue);
+}
+
+.accordion-body {
+  color: var(--brand-dark-grey);
+}
+
+footer p {
+  text-align: left;
+}

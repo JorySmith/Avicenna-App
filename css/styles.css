@@ -106,3 +106,24 @@ span {
 footer p {
   text-align: left;
 }
+
+/* Dark Mode Settings */
+body.dark-mode {
+  background: #232323;
+  color: #fff;
+}
+
+h1.dark-mode,
+h5.dark-mode,
+a.dark-mode,
+span.dark-mode,
+.ul-subheading.dark-mode,
+.quote-citation.dark-mode {
+  color: #fff !important;
+}
+
+.accordion-body.dark-mode,
+.accordion-button.dark-mode {
+  color: #fff !important;
+  background-color: var(--brand-grey);
+}

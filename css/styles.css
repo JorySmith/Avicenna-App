@@ -116,9 +116,7 @@ body.dark-mode {
 h1.dark-mode,
 h5.dark-mode,
 a.dark-mode,
-span.dark-mode,
-.ul-subheading.dark-mode,
-.quote-citation.dark-mode {
+span.dark-mode {
   color: #fff !important;
 }
 

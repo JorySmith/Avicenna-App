@@ -46,6 +46,10 @@ li {
   letter-spacing: 0.05rem;
 }
 
+.accordion-body > strong {
+  color: var(--brand-dark-blue);
+}
+
 /* Dark Mode Toggler */
 .checkbox {
   opacity: 0;
@@ -116,6 +120,8 @@ body.dark-mode {
 h1.dark-mode,
 h5.dark-mode,
 a.dark-mode,
+.ul-subheading.dark-mode,
+.title-discussion.dark-mode,
 span.dark-mode {
   color: #fff !important;
 }

@@ -131,3 +131,7 @@ span.dark-mode {
   color: #fff !important;
   background-color: var(--brand-grey);
 }
+
+.title-discussion.dark-mode {
+  text-decoration: underline;
+}
